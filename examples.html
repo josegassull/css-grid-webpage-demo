@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="x-icon" href="images/icon.ico">
+</head>
+<body>
+    <header class="header-wrapper">
+        <div class="header-item" >
+            <img src="images/icon.jpg" alt="CSS Grid Icon"
+            style="max-width: 50px; max-height: 50px;">
+        </div>
+        <div class="header-item">
+            <h1>CSS Grid</h1>
+        </div>
+        <div class="header-item">
+            <img src="images/icon.jpg" alt="CSS Grid Icon" 
+            style="max-width: 50px; max-height: 50px;">
+        </div>
+    </header>
+    <nav class="nav-wrapper">
+        <div class="nav-item">
+            <h3><a href="index.html" style="text-decoration: none; color: #9effe3;"
+                >&nbsp Intro &nbsp</a></h3>
+        </div>
+        <div class="nav-item">
+            <h3><a href="comparision.html" style="text-decoration: none; color: #9effe3;"
+                >Comparision</a></h3>
+        </div>
+        <div class="nav-item">
+            <h3><a href="contact.html" style="text-decoration: none; color: #9effe3;"
+                >Contact</a></h3>
+        </div>
+    </nav>
+    <h2 style="color: #9effe3; text-align: center; margin: 50px;">Examples:</h2>
+    <main class="main-box">
+        <h2>3x3 responsive grid:</h2>
+        <p>Example of a grid with 3 columns and 3 rows that adapts its size
+            depending on the resolution of the screen that is being used to visualize the
+            webpage. The columns of the grid use all the remaining space there is left
+            in their container or wrapper.
+        </p>
+    </main>
+    <div class="example-1-wrapper">
+        <div class="example-item apple"><h2>Apple</h2></div>
+        <div class="example-item banana"><h2>Banana</h2></div>
+        <div class="example-item kiwi"><h2>Kiwi</h2></div>
+        <div class="example-item peach"><h2>Peach</h2></div>
+        <div class="example-item blueberry"><h2>Blueberry</h2></div>
+        <div class="example-item cherry"><h2>Cherry</h2></div>
+        <div class="example-item coconut"><h2>Coconut</h2></div>
+        <div class="example-item grape"><h2>Grape</h2></div>
+        <div class="example-item mango"><h2>Mango</h2></div>
+    </div>
+    <main class="main-box">
+        <h2>3x3 responsive inline-grid:</h2>
+        <p>Example of an inline-grid with 3 columns and 3 rows that adapts its size
+            depending on the resolution of the screen. The columns of the grid only 
+            use the necessary space for the items inside the grid.
+        </p>
+    </main>
+    <div class="example-2-wrapper">
+        <div class="example-item apple"><h2>Apple</h2></div>
+        <div class="example-item banana"><h2>Banana</h2></div>
+        <div class="example-item kiwi"><h2>Kiwi</h2></div>
+        <div class="example-item peach"><h2>Peach</h2></div>
+        <div class="example-item blueberry"><h2>Blueberry</h2></div>
+        <div class="example-item cherry"><h2>Cherry</h2></div>
+        <div class="example-item coconut"><h2>Coconut</h2></div>
+        <div class="example-item grape"><h2>Grape</h2></div>
+        <div class="example-item mango"><h2>Mango</h2></div>
+    </div>
+    <main class="main-box">
+        <h2>Adjusting culumns and rows for a responsive grid:</h2>
+        <p>Example of how to adjust the space that items use either vertically or
+            horizontally.
+        </p>
+    </main>
+    <div class="example-3-wrapper">
+        <div class="example3-item1 apple"><h2>Apple</h2></div>
+        <div class="example-item banana"><h2>Banana</h2></div>
+        <div class="example-item kiwi"><h2>Kiwi</h2></div>
+        <div class="example-item peach"><h2>Peach</h2></div>
+        <div class="example3-item2 blueberry"><h2>Blueberry</h2></div>
+        <div class="example-item grape"><h2>Grape</h2></div>
+        <div class="example-item coconut"><h2>Coconut</h2></div>
+    </div>
+    <main class="main-box">
+        <h2>Adjusting culumns and rows for an inline-grid:</h2>
+        <p>Example of how to adjust the space that items use either vertically or
+            horizontally: in this case using the inline-grid.
+        </p>
+    </main>
+    <div class="example-4-wrapper">
+        <div class="example-item apple"><h2>Apple</h2></div>
+        <div class="example-item banana"><h2>Banana</h2></div>
+        <div class="example4-item1 kiwi"><h2>Kiwi</h2></div>
+        <div class="example4-item2 peach"><h2>Peach</h2></div>
+        <div class="example-item blueberry"><h2>Blueberry</h2></div>
+        <div class="example-item cherry"><h2>Cherry</h2></div>
+    </div>
+    <h2 class="more-examples-title">More examples</h2>
+    <div class="more-examples-wrapper">
+        <aside class="more-examples-aside">
+            <h2>Rows with different sizes:</h2>
+            <p>We will give the rows inside the box different sizes using the
+                the propieties of CSS grid.
+            </p>
+        </aside>
+        <main class="more-examples-main">
+            <div class="example-5-wrapper">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+                <div>D</div>
+                <div>E</div>
+                <div>F</div>
+                <div>G</div>
+                <div>H</div>
+                <div>I</div>
+            </div>
+        </main>
+    </div>
+    <div class="more-examples-wrapper">
+        <aside class="more-examples-aside">
+            <h2>Colums with different sizes:</h2>
+            <p>We will give the columns inside the box different sizes using the
+                the propieties of CSS grid.
+            </p>
+        </aside>
+        <main class="more-examples-main">
+            <div class="example-6-wrapper">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+                <div>D</div>
+                <div>E</div>
+                <div>F</div>
+                <div>G</div>
+                <div>H</div>
+                <div>I</div>
+            </div>
+        </main>
+    </div>
+    <br>
+    <div class="more-examples-2-wrapper">
+        <aside class="more-examples-aside">
+            <h2>What's next?:</h2>
+            <p>The potential of CSS Grid does not end here; this tool offers many
+                 more functionalities and properties that will allow us to create 
+                 the desired design for every situation.
+            </p>
+        </aside>
+        <main class="more-examples-main">
+            <div>
+                <h2>To display all the functions that CSS Grid can give us here would 
+                    be unnecessary since this is not a tutorial for CSS Grid but a simple
+                     webpage to showcase an idea of what we can achieve with CSS Grid.
+                </h2>
+            </div>
+        </main>
+    </div>
+    <div class="more-examples-2-wrapper">
+        <aside class="more-examples-aside">
+            <h2>For more about CSS Grid:</h2>
+            <p>To know and learn in detail the deep functionalities of CSS Grid, we can 
+                access all the free documentation of CSS Grid available on the web. Developers
+                 often use CSS Grid in various projects and implement the necessary properties 
+                 needed in each situation presented.
+            </p>
+        </aside>
+        <main class="more-examples-main">
+            <div>
+                <h2 style="text-align: end;">Thank you for your attention!</h2>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <h3>Created by: José Gassull - Contact: josegassull@gmail.com</h3>
+    </footer>
+</body>
+</html>
